@@ -1,0 +1,6 @@
+# Lora训练配置文件
+
+# 项目路径配置
+# 设置为目标训练项目的路径，例如："E:/Design/Character/角色名称"
+#project_path: "E:/Design/Styles/anime02cxt"  
+project_path: "E:/Design/Styles/anime01cxt"  
