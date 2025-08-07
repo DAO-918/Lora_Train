@@ -1,0 +1,12 @@
+# 翻译API配置
+
+# 百度翻译API配置
+baidu:
+  appid: '20241115002203298'
+  appkey: 'PmHxp8kYtNnsM2B31JQr'
+
+# 腾讯翻译API配置
+tencent:
+  secret_id: 'AKIDSl7W0KqCNL5d6UgfQGBD7xoTvDHAtQmw'
+  secret_key: 'C9tP1TmvrbEixxlRBj6KQN9i3KVmIi4Q'
+  region: 'ap-guangzhou'

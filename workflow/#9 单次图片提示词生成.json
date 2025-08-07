@@ -1,0 +1,71 @@
+{
+  "1": {
+    "inputs": {
+      "prompt": [
+        "5",
+        0
+      ],
+      "input_type": "image",
+      "model_version": "gemini-2.0-flash-exp",
+      "operation_mode": "analysis",
+      "chat_mode": false,
+      "clear_history": false,
+      "Additional_Context": "",
+      "api_key": "",
+      "max_output_tokens": 1024,
+      "temperature": 0.8,
+      "structured_output": false,
+      "max_images": 1,
+      "batch_count": 1,
+      "seed": 861,
+      "images": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "Gemini_Flash_200_Exp",
+    "_meta": {
+      "title": "Gemini Flash 2.0 Experimental"
+    }
+  },
+  "4": {
+    "inputs": {
+      "image_path": "E:\\Design\\Styles\\口口AX1\\v2_gemini\\2_1024\\108888932_p0.jpg",
+      "RGBA": "false",
+      "filename_text_extension": "true"
+    },
+    "class_type": "Image Load",
+    "_meta": {
+      "title": "Image Load"
+    }
+  },
+  "5": {
+    "inputs": {
+      "string": "Please describe the content of this picture in detail, including the subject, background, color, style, etc. No ambiguous description is needed, brackets are not used to note the uncertain content, and the uncertain content can be omitted.",
+      "strip_newlines": true
+    },
+    "class_type": "StringConstantMultiline",
+    "_meta": {
+      "title": "提示词"
+    }
+  },
+  "7": {
+    "inputs": {
+      "text": [
+        "1",
+        0
+      ],
+      "path": "D:\\Code\\MY_ComfyUI\\# 模型训练",
+      "filename_prefix": "picture_prompt_temp",
+      "filename_delimiter": "_",
+      "filename_number_padding": 2,
+      "file_extension": ".txt",
+      "encoding": "utf-8",
+      "filename_suffix": ""
+    },
+    "class_type": "Save Text File",
+    "_meta": {
+      "title": "Save Text File"
+    }
+  }
+}

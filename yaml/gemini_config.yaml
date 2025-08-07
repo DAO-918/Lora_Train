@@ -1,0 +1,7 @@
+api_key: AIzaSyACcuSQ2Gq2m_K6eG6e2n_8paVZ4FBlj4w
+model: models/gemini-2.0-flash-exp  # "model": (["models/gemini-2.0-flash-exp"], {"default": "models/gemini-2.0-flash-exp"}),
+proxy: http://127.0.0.1:7890
+retry_count: 2
+retry_delay: 30
+temperature: 1.0
+timeout: 200

@@ -1,0 +1,9 @@
+
+{
+    "api_key": "AIzaSyACcuSQ2Gq2m_K6eG6e2n_8paVZ4FBlj4w",
+    "model": "models/gemini-2.0-flash-exp",
+    "temperature": 1.0,
+    "timeout": 200,
+    "retry_count": 2,
+    "retry_delay": 30
+}
